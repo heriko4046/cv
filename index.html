@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Heriko Farely Putra</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        fontFamily: {
+                            serif: ["Playfair Display", "serif"],
+                            sans: ["DM Sans", "sans-serif"],
+                        },
+                    },
+                },
+            };
+        </script>
+        <style>
+            mark {
+                background: #faeeda;
+                color: #633806;
+                padding: 1px 4px;
+                border-radius: 2px;
+            }
+
+            .section-label::after {
+                content: "";
+                flex: 1;
+                height: 0.5px;
+                background: #d3d1c7;
+            }
+        </style>
+    </head>
+
+    <body
+        class="bg-[#faf8f5] text-[#2c2c2a] font-sans antialiased selection:bg-[#faeeda] selection:text-[#633806]"
+    >
+        <header
+            class="bg-[#2c2c2a] text-[#faf8f5] py-12 px-6 sm:px-12 md:px-16 border-b border-[#3d3d3a]"
+        >
+            <div
+                class="max-w-3xl mx-auto flex flex-col sm:flex-row gap-8 items-center sm:items-start"
+            >
+                <div
+                    class="w-32 h-32 rounded-[4px] border border-[#5f5e5a] overflow-hidden bg-[#444441] flex items-center justify-center relative shrink-0"
+                >
+                    <img
+                        src="profile.jpg"
+                        alt="Foto Ananda Putri Ramadhani"
+                        class="w-full h-full object-cover"
+                    />
+                </div>
+                <div
+                    class="flex flex-col gap-2 items-center sm:items-start text-center sm:text-left"
+                >
+                    <h1
+                        class="font-serif text-[2.25rem] font-bold leading-tight tracking-tight text-[#faf8f5]"
+                    >
+                        Heriko Farely<br class="hidden sm:inline" />
+                        Putra
+                    </h1>
+                    <p
+                        class="text-[0.75rem] tracking-[0.2em] uppercase text-[#888780]"
+                    >
+                        Junior Web Developer
+                    </p>
+                    <div class="w-8 h-px bg-[#5f5e5a] my-2"></div>
+                    <nav
+                        class="flex flex-wrap gap-2 justify-center sm:justify-start"
+                    >
+                        <a
+                            href="mailto:herikofarelyputra7@gmail.com"
+                            class="text-[0.75rem] text-[#b4b2a9] border border-[#5f5e5a] px-3 py-1.5 rounded-[2px] hover:text-[#faf8f5] hover:border-[#888780] transition-colors"
+                            >✉ Email</a
+                        >
+                        <a
+                            href="https://github.com/heriko4046"
+                            target="_blank"
+                            class="text-[0.75rem] text-[#b4b2a9] border border-[#5f5e5a] px-3 py-1.5 rounded-[2px] hover:text-[#faf8f5] hover:border-[#888780] transition-colors"
+                            >⌥ GitHub</a
+                        >
+                        <a
+                            href="#about"
+                            class="text-[0.75rem] text-[#b4b2a9] border border-[#5f5e5a] px-3 py-1.5 rounded-[2px] hover:text-[#faf8f5] hover:border-[#888780] transition-colors"
+                            >↓ Lihat CV</a
+                        >
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="max-w-3xl mx-auto w-full">
+            <!-- Section Tentang Saya -->
+            <section
+                id="about"
+                class="px-6 sm:px-12 py-10 md:py-12 border-b border-[#d3d1c7]"
+            >
+                <p
+                    class="section-label text-[0.7rem] tracking-[0.2em] uppercase text-[#888780] mb-6 flex items-center gap-3"
+                >
+                    Tentang Saya
+                </p>
+                <div
+                    class="grid grid-cols-1 md:grid-cols-[1fr_240px] gap-8 items-start"
+                >
+                    <div>
+                        <h2
+                            class="font-serif text-[1.25rem] font-semibold mb-4 text-[#2c2c2a]"
+                        >
+                            Halo, saya Heriko
+                        </h2>
+                        <p class="text-sm text-[#444441] leading-relaxed mb-4">
+                            Saya adalah seorang mahasiswa jurusan
+                            <strong class="font-medium text-[#2c2c2a]"
+                                >Informatika</strong
+                            >
+                            yang senang dengan
+                            <mark>pengembangan web</mark> dan sangat menyukai
+                            automation tools untuk keseharian saya.
+                        </p>
+                        <p class="text-sm text-[#444441] leading-relaxed mb-6">
+                            Selain coding, saya suka bersepeda, membaca, dan
+                            sesekali ikut komunitas open source. Saya percaya
+                            bahwa belajar konsisten, walau sedikit setiap
+                            harinya, adalah kunci untuk berkembang.
+                        </p>
+                        <ul class="flex flex-col gap-3">
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#2c2c2a] shrink-0"
+                                ></span>
+                                <span>Menyukai hal baru</span>
+                            </li>
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#2c2c2a] shrink-0"
+                                ></span>
+                                <span
+                                    >Berorientasi pada detail dan kebersihan
+                                    kode</span
+                                >
+                            </li>
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#2c2c2a] shrink-0"
+                                ></span>
+                                <span
+                                    >Senang mengerjakan projek kecil
+                                    sendirian.</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Riwayat Pendidikan Saya -->
+            <section
+                id="education"
+                class="px-6 sm:px-12 py-10 md:py-12 border-b border-[#d3d1c7]"
+            >
+                <p
+                    class="section-label text-[0.7rem] tracking-[0.2em] uppercase text-[#888780] mb-6 flex items-center gap-3"
+                >
+                    Pendidikan
+                </p>
+                <h2
+                    class="font-serif text-[1.25rem] font-semibold mb-6 text-[#2c2c2a]"
+                >
+                    Riwayat Pendidikan
+                </h2>
+
+                <div class="hidden sm:block overflow-x-auto">
+                    <table class="w-full text-sm border-collapse">
+                        <thead>
+                            <tr class="bg-[#f1efe8]">
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Institusi
+                                </th>
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Jurusan
+                                </th>
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Tahun
+                                </th>
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Status
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr
+                                class="hover:bg-[#f1efe8]/50 transition-colors border-b border-[#d3d1c7]"
+                            >
+                                <td
+                                    class="px-4 py-3.5 font-medium text-[#2c2c2a]"
+                                >
+                                    Universitas Siber Asia
+                                </td>
+                                <td class="px-4 py-3.5 text-[#444441]">
+                                    S1 Teknik Informatika
+                                </td>
+                                <td
+                                    class="px-4 py-3.5 text-[#444441] whitespace-nowrap"
+                                >
+                                    2025 – sekarang
+                                </td>
+                                <td class="px-4 py-3.5">
+                                    <span
+                                        class="text-[0.7rem] px-2 py-0.5 rounded-[2px] text-[#0f6e56] font-medium"
+                                        >Aktif</span
+                                    >
+                                </td>
+                            </tr>
+                            <tr
+                                class="hover:bg-[#f1efe8]/50 transition-colors border-b border-[#d3d1c7]"
+                            >
+                                <td
+                                    class="px-4 py-3.5 font-medium text-[#2c2c2a]"
+                                >
+                                    SMK Prestasi Prima
+                                </td>
+                                <td class="px-4 py-3.5 text-[#444441]">PPLG</td>
+                                <td
+                                    class="px-4 py-3.5 text-[#444441] whitespace-nowrap"
+                                >
+                                    2022 – 2025
+                                </td>
+                                <td class="px-4 py-3.5">
+                                    <span
+                                        class="text-[0.7rem] px-2 py-0.5 rounded-[2px] text-[#185fa5] font-medium"
+                                        >Lulus</span
+                                    >
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Section Pengalaman Saya -->
+            <section
+                id="experience"
+                class="px-6 sm:px-12 py-10 md:py-12 border-b border-[#d3d1c7]"
+            >
+                <p
+                    class="section-label text-[0.7rem] tracking-[0.2em] uppercase text-[#888780] mb-6 flex items-center gap-3"
+                >
+                    Pengalaman &amp; Keahlian
+                </p>
+                <h2
+                    class="font-serif text-[1.25rem] font-semibold mb-6 text-[#2c2c2a]"
+                >
+                    Pengalaman Kerja / Magang
+                </h2>
+
+                <div class="hidden sm:block overflow-x-auto mb-8">
+                    <table class="w-full text-sm border-collapse">
+                        <thead>
+                            <tr class="bg-[#f1efe8]">
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Posisi
+                                </th>
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Tempat
+                                </th>
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Periode
+                                </th>
+                                <th
+                                    class="text-left text-[0.7rem] tracking-[0.12em] uppercase text-[#888780] font-normal px-4 py-3 border-b border-[#d3d1c7]"
+                                >
+                                    Teknologi
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr
+                                class="hover:bg-[#f1efe8]/50 transition-colors border-b border-[#d3d1c7]"
+                            >
+                                <td
+                                    class="px-4 py-3.5 font-medium text-[#2c2c2a]"
+                                >
+                                    Frontend Intern
+                                </td>
+                                <td class="px-4 py-3.5 text-[#444441]">
+                                    Iota Cipta Indonesia
+                                </td>
+                                <td
+                                    class="px-4 py-3.5 text-[#444441] whitespace-nowrap"
+                                >
+                                    Januari - Juni 2024
+                                </td>
+                                <td class="px-4 py-3.5">
+                                    <span
+                                        class="text-[0.7rem] px-2 py-0.5 rounded-[2px] text-[#185fa5] font-medium"
+                                        >ReactJS</span
+                                    >
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-[#f1efe8]/50 transition-colors">
+                                <td
+                                    class="px-4 py-3.5 font-medium text-[#2c2c2a]"
+                                >
+                                    Freelance Web
+                                </td>
+                                <td class="px-4 py-3.5 text-[#444441]">
+                                    Klien Perorangan
+                                </td>
+                                <td
+                                    class="px-4 py-3.5 text-[#444441] whitespace-nowrap"
+                                >
+                                    2022 – sekarang
+                                </td>
+                                <td class="px-4 py-3.5">
+                                    <span
+                                        class="text-[0.7rem] px-2 py-0.5 rounded-[2px] text-[#185fa5] font-medium"
+                                        >ReactJS</span
+                                    >
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+                    <div>
+                        <h3
+                            class="text-[0.75rem] font-semibold tracking-[0.08em] uppercase text-[#888780] mb-4"
+                        >
+                            Keahlian Teknis
+                        </h3>
+                        <ul class="flex flex-col gap-3.5">
+                            <li
+                                class="flex items-center justify-between text-sm text-[#444441]"
+                            >
+                                <span>HTML &amp; CSS</span>
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="text-xs text-[#888780] font-mono"
+                                        >70%</span
+                                    >
+                                    <div
+                                        class="w-20 h-1 bg-[#e5e2d9] rounded-full overflow-hidden"
+                                    >
+                                        <div
+                                            class="h-full bg-[#2c2c2a] rounded-full"
+                                            style="width: 70%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li
+                                class="flex items-center justify-between text-sm text-[#444441]"
+                            >
+                                <span>JavaScript</span>
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="text-xs text-[#888780] font-mono"
+                                        >65%</span
+                                    >
+                                    <div
+                                        class="w-20 h-1 bg-[#e5e2d9] rounded-full overflow-hidden"
+                                    >
+                                        <div
+                                            class="h-full bg-[#2c2c2a] rounded-full"
+                                            style="width: 65%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li
+                                class="flex items-center justify-between text-sm text-[#444441]"
+                            >
+                                <span>Python</span>
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="text-xs text-[#888780] font-mono"
+                                        >55%</span
+                                    >
+                                    <div
+                                        class="w-20 h-1 bg-[#e5e2d9] rounded-full overflow-hidden"
+                                    >
+                                        <div
+                                            class="h-full bg-[#2c2c2a] rounded-full"
+                                            style="width: 55%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li
+                                class="flex items-center justify-between text-sm text-[#444441]"
+                            >
+                                <span>Git &amp; GitHub</span>
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="text-xs text-[#888780] font-mono"
+                                        >50%</span
+                                    >
+                                    <div
+                                        class="w-20 h-1 bg-[#e5e2d9] rounded-full overflow-hidden"
+                                    >
+                                        <div
+                                            class="h-full bg-[#2c2c2a] rounded-full"
+                                            style="width: 50%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3
+                            class="text-[0.75rem] font-semibold tracking-[0.08em] uppercase text-[#888780] mb-4"
+                        >
+                            Keahlian Non-Teknis
+                        </h3>
+                        <ul class="flex flex-col gap-3">
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#888780] shrink-0"
+                                ></span>
+                                <span>Komunikasi dan presentasi</span>
+                            </li>
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#888780] shrink-0"
+                                ></span>
+                                <span>Manajemen waktu &amp; deadline</span>
+                            </li>
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#888780] shrink-0"
+                                ></span>
+                                <span>Kerja tim dan kolaborasi</span>
+                            </li>
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#888780] shrink-0"
+                                ></span>
+                                <span>Belajar mandiri (self-learning)</span>
+                            </li>
+                            <li
+                                class="text-sm text-[#444441] flex items-start gap-2.5"
+                            >
+                                <span
+                                    class="mt-2 w-1.5 h-1.5 rounded-full bg-[#888780] shrink-0"
+                                ></span>
+                                <span>Berpikir analitis</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Project Saya -->
+
+            <section
+                id="projects"
+                class="px-6 sm:px-12 py-10 md:py-12 border-b border-[#d3d1c7]"
+            >
+                <p
+                    class="section-label text-[0.7rem] tracking-[0.2em] uppercase text-[#888780] mb-6 flex items-center gap-3"
+                >
+                    Proyek
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <article
+                        class="group border border-[#d3d1c7] rounded-[4px] p-4 bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+                    >
+                        <div
+                            class="h-28 rounded-[3px] bg-[#eeedfe] border border-[#afa9ec] mb-3.5 flex items-center justify-center overflow-hidden relative"
+                        >
+                            <img
+                                src="project1.jpg"
+                                alt="QRIS Payment Gateway"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                        </div>
+                        <h3
+                            class="text-sm font-semibold text-[#2c2c2a] mb-1.5 group-hover:text-[#534ab7] transition-colors"
+                        >
+                            Third-Party Payment Gateway
+                        </h3>
+                        <p
+                            class="text-[0.75rem] text-[#5f5e5a] leading-relaxed"
+                        >
+                            Layanan penyedia QRIS sebagai payment gateway, tanpa
+                            verifikasi identitas
+                        </p>
+                    </article>
+                    <article
+                        class="group border border-[#d3d1c7] rounded-[4px] p-4 bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+                    >
+                        <div
+                            class="h-28 rounded-[3px] bg-[#e1f5ee] border border-[#9fe1cb] mb-3.5 flex items-center justify-center overflow-hidden relative"
+                        >
+                            <img
+                                src="project2.jpg"
+                                alt="Tmail"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                            <span
+                                class="absolute bottom-2 left-2 text-[#0f6e56] text-[8px] tracking-widest uppercase font-medium bg-[#e1f5ee]/90 px-1.5 py-0.5 rounded-[1px]"
+                                >screenshot</span
+                            >
+                        </div>
+                        <h3
+                            class="text-sm font-semibold text-[#2c2c2a] mb-1.5 group-hover:text-[#0f6e56] transition-colors"
+                        >
+                            Tmail (Temporary Email)
+                        </h3>
+                        <p
+                            class="text-[0.75rem] text-[#5f5e5a] leading-relaxed"
+                        >
+                            Website penyedia email service sementara untuk
+                            menerima pesan
+                        </p>
+                    </article>
+                    <article
+                        class="group border border-[#d3d1c7] rounded-[4px] p-4 bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+                    >
+                        <div
+                            class="h-28 rounded-[3px] bg-[#faeeda] border border-[#fac775] mb-3.5 flex items-center justify-center overflow-hidden relative"
+                        >
+                            <img
+                                src="project3.jpg"
+                                alt="Jual-Beli"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                        </div>
+                        <h3
+                            class="text-sm font-semibold text-[#2c2c2a] mb-1.5 group-hover:text-[#854f0b] transition-colors"
+                        >
+                            Sewa Bot Penjualan Otomatis
+                        </h3>
+                        <p
+                            class="text-[0.75rem] text-[#5f5e5a] leading-relaxed"
+                        >
+                            Layanan penghubung whatsapp yang bisa digunakan
+                            untuk bertransaksi online secara otomatis
+                        </p>
+                    </article>
+                    <article
+                        class="group border border-[#d3d1c7] rounded-[4px] p-4 bg-white hover:-translate-y-1 hover:shadow-md transition-all duration-300"
+                    >
+                        <div
+                            class="h-28 rounded-[3px] bg-[#fcebeb] border border-[#f7c1c1] mb-3.5 flex items-center justify-center overflow-hidden relative"
+                        >
+                            <img
+                                src="project4.jpg"
+                                alt="Plenger Tools"
+                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                        </div>
+                        <h3
+                            class="text-sm font-semibold text-[#2c2c2a] mb-1.5 group-hover:text-[#a32d2d] transition-colors"
+                        >
+                            All-in-one Automation Tools
+                        </h3>
+                        <p
+                            class="text-[0.75rem] text-[#5f5e5a] leading-relaxed"
+                        >
+                            Website dengan banyak layanan automation mulai dari
+                            akun premium, dll.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="px-6 sm:px-12 py-10 md:py-12">
+                <p
+                    class="section-label text-[0.7rem] tracking-[0.2em] uppercase text-[#888780] mb-6 flex items-center gap-3"
+                >
+                    Kontak
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div
+                        class="group border border-[#d3d1c7] rounded-[4px] p-5 bg-white text-center hover:border-[#2c2c2a] transition-colors duration-300"
+                    >
+                        <p
+                            class="text-2xl mb-2.5 transition-transform duration-300 group-hover:scale-110"
+                        >
+                            ✉
+                        </p>
+                        <p
+                            class="text-[0.7rem] tracking-[0.1em] uppercase text-[#888780] mb-1.5 font-medium"
+                        >
+                            Email
+                        </p>
+                        <a
+                            href="mailto:herikofarelyputra7@gmail.com"
+                            class="text-sm font-semibold text-[#2c2c2a] hover:text-[#534ab7] transition-colors break-all"
+                            >herikofarelyputra7@gmail.com</a
+                        >
+                    </div>
+                    <div
+                        class="group border border-[#d3d1c7] rounded-[4px] p-5 bg-white text-center hover:border-[#2c2c2a] transition-colors duration-300"
+                    >
+                        <p
+                            class="text-2xl mb-2.5 transition-transform duration-300 group-hover:scale-110"
+                        >
+                            ⌥
+                        </p>
+                        <p
+                            class="text-[0.7rem] tracking-[0.1em] uppercase text-[#888780] mb-1.5 font-medium"
+                        >
+                            GitHub
+                        </p>
+                        <a
+                            href="https://github.com/heriko4046"
+                            target="_blank"
+                            class="text-sm font-semibold text-[#2c2c2a] hover:text-[#534ab7] transition-colors break-all"
+                            >github.com/heriko4046</a
+                        >
+                    </div>
+                    <div
+                        class="group border border-[#d3d1c7] rounded-[4px] p-5 bg-white text-center hover:border-[#2c2c2a] transition-colors duration-300"
+                    >
+                        <p
+                            class="text-2xl mb-2.5 transition-transform duration-300 group-hover:scale-110"
+                        >
+                            ✉
+                        </p>
+                        <p
+                            class="text-[0.7rem] tracking-[0.1em] uppercase text-[#888780] mb-1.5 font-medium"
+                        >
+                            WhatsApp
+                        </p>
+                        <a
+                            href="https://wa.me/628982136263"
+                            target="_blank"
+                            class="text-sm font-semibold text-[#2c2c2a] hover:text-[#534ab7] transition-colors break-all"
+                            >+628982136263</a
+                        >
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer
+            class="bg-[#2c2c2a] text-[#b4b2a9] py-8 px-6 sm:px-12 border-t border-[#3d3d3a]"
+        >
+            <div
+                class="max-w-3xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-center sm:text-left"
+            >
+                <span class="font-serif text-[#faf8f5] text-sm font-medium"
+                    >Heriko Farely Putra</span
+                >
+                <span class="text-[#888780] text-xs">Dibuat dengan CINTA</span>
+            </div>
+        </footer>
+    </body>
+</html>
